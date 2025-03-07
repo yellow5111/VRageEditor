@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditorSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PluginItems>
+    <PluginItem>
+      <FileName>AnimationControllerPlugin.dll</FileName>
+      <Enabled>false</Enabled>
+    </PluginItem>
+    <PluginItem>
+      <FileName>GameWindowPlugin.exe</FileName>
+      <Enabled>false</Enabled>
+    </PluginItem>
+    <PluginItem>
+      <FileName>ModelBuilderPlugin.dll</FileName>
+      <Enabled>true</Enabled>
+    </PluginItem>
+    <PluginItem>
+      <FileName>ModelViewerPlugin.dll</FileName>
+      <Enabled>false</Enabled>
+    </PluginItem>
+  </PluginItems>
+  <Name>Model builder</Name>
+  <StartButtonImage>../Plugins/ModelBuilder/Content/Icon32.png</StartButtonImage>
+  <EditorIcon>../Plugins/ModelBuilder/Content/Icon32.ico</EditorIcon>
+  <EditorSplashscreen>ModelBuilder/Content/Splashscreen.png</EditorSplashscreen>
+  <Locked>true</Locked>
+</EditorSettings>

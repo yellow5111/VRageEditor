@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Tools\VRageEditor\Plugins\ModelBuilder\net48\VRage.XmlSerializers.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87F346DB-F026-4569-A00B-19BC94ED3F17}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>VRage.XmlSerializers</AssemblyName>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <RootNamespace>Microsoft.Xml.Serialization.GeneratedAssembly</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VRage" />
+    <Reference Include="VRage.Library" />
+    <Reference Include="VRage.Math" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="XmlSerializationWriter1.cs" />
+    <Compile Include="XmlSerializationReader1.cs" />
+    <Compile Include="XmlSerializer1.cs" />
+    <Compile Include="DistantSoundSerializer.cs" />
+    <Compile Include="MyAudioWaveSerializer.cs" />
+    <Compile Include="MyDeltaTransformSerializer.cs" />
+    <Compile Include="MyOrientationSerializer.cs" />
+    <Compile Include="MyPositionAndOrientationSerializer.cs" />
+    <Compile Include="SerializableBoundingBoxDSerializer.cs" />
+    <Compile Include="SerializableBoundsSerializer.cs" />
+    <Compile Include="SerializableOrientedBoundingBoxDSerializer.cs" />
+    <Compile Include="SerializableQuaternionSerializer.cs" />
+    <Compile Include="SerializableVector2Serializer.cs" />
+    <Compile Include="SerializableVector2ISerializer.cs" />
+    <Compile Include="SerializableVector3Serializer.cs" />
+    <Compile Include="SerializableVector3DSerializer.cs" />
+    <Compile Include="SerializableVector3ISerializer.cs" />
+    <Compile Include="SerializableVector3UByteSerializer.cs" />
+    <Compile Include="MyStorageDataSerializer.cs" />
+    <Compile Include="MyStringHashSerializer.cs" />
+    <Compile Include="SerializableBoundingSphereDSerializer.cs" />
+    <Compile Include="EndpointIdSerializer.cs" />
+    <Compile Include="JoinResultMsgSerializer.cs" />
+    <Compile Include="ServerDataMsgSerializer.cs" />
+    <Compile Include="BlockListSerializer.cs" />
+    <Compile Include="ChatMsgSerializer.cs" />
+    <Compile Include="ConnectedClientDataMsgSerializer.cs" />
+    <Compile Include="ClientReadyDataMsgSerializer.cs" />
+    <Compile Include="ChatMessageCustomDataSerializer.cs" />
+    <Compile Include="MyGameInventoryItemSerializer.cs" />
+    <Compile Include="MyGameInventoryItemDefinitionSerializer.cs" />
+    <Compile Include="ModMetadataFileSerializer.cs" />
+    <Compile Include="MyCueIdSerializer.cs" />
+    <Compile Include="XmlSerializerContract.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
